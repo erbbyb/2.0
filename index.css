@@ -1,0 +1,47 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 98%;	
+        	
+        background-image: url(web-pic/女书.png);
+        background-size: cover;	
+        
+		}
+		.video{
+			osition: absolute;
+            /* 垂直居中 */
+            top: 0;
+            bottom: 0;
+            height: 50%;
+            /* 水平居中 */
+            left: 0;
+            right: 0;
+            width: 97%;
+            margin: auto;
+            
+            
+            text-align: center;
+						
+		}
+		.word{
+			osition: absolute;
+            /* 垂直居中 */
+            top: 0;
+            bottom: 0;
+            height: 50%;
+            /* 水平居中 */
+            left: 0;
+            right: 0;
+            width: 500px;
+            margin: auto;
+            
+            text-align: center;
+		}

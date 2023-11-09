@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>01 hello world</title>
+	<style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #ffffff;
+      overflow: hidden;
+    }
+    
+  </style>
+
+  <!-- aframe lib -->
+  <script src="libs/ar/aframe.min.js"></script>
+  <script src="libs/ar/aframe-ar.js"></script>
+  <script src="libs/ar/aframe-extras.min.js"></script>
+  <script src="libs/ar/aframep5_ar-v0.4.js"></script>
+
+  <!-- p5 lib -->
+  <script src="libs/p5/p5.min.js"></script>
+  
+  <!-- p5 sketch -->
+  <script src="marker_5.js"></script>
+</head>
+<body>
+	<!-- aframe scene -->
+  <a-scene id="ARScene" embedded arjs>
+
+    <!-- assets -->
+    <a-assets>
+      <a-asset id="model_01" response-type="arraybuffer" src="model/Project_1.gltf"></a-asset>
+      <a-asset id="model_02" response-type="arraybuffer" src="model/Project_2.gltf"></a-asset>
+      <a-asset id="model_03" response-type="arraybuffer" src="model/安邦定业.glb"></a-asset>
+      <a-asset id="model_04" response-type="arraybuffer" src="model/Project_2.gltf"></a-asset>
+      <a-asset id="model_05" response-type="arraybuffer" src="model/福星高照.gltf"></a-asset>
+    </a-assets>
+
+
+    <!-- marker -->
+    <a-marker id="furudonghai01" type="pattern" url="markers/patt.furudonghai"></a-marker>
+    <a-marker id="shoubinanshan02" type="pattern" url="markers/patt.shoubinanshan02"></a-marker>
+    <a-marker id="anbangdingguo03" type="pattern" url="markers/patt.anbangdingsuo"></a-marker>
+    <a-marker id="bingqingyujie04" type="pattern" url="markers/patt.bingqingyujie"></a-marker>
+    <a-marker id="fuxinggaozhao05" type="pattern" url="markers/patt.clown"></a-marker>
+
+    <!-- cam -->
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+</html>
