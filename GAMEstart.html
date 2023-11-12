@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>welcome to nvshu room</title>
 	<style type="text/css">
-	body{
+		body{
 			margin: 0;
 			padding: 0;
 			height: 100%;
@@ -46,20 +46,39 @@
             
             text-align: center;
 		}
-		</style>
+		iframe{
+			border: none;
+			text-align: center;
+			
+			width: 1000px;
+			height:500px;
+			margin: 0;
+			padding: 0;
+			text-align:center;
+		}
+	</style>
+
 </head>
 <body>
 	<div class="word">
-		<a href="index.html"><h1>NVSHU ROOM</h1></a>
+		<a href="index.html"><h1>NVSHU ROOM GAME</h1></a>
 		
 		<a href="video1.html">INTRODUCTION----</a>   
 		<a href="marker_5.html">MAEKER----</a>
-		<a href="GAMEstart.html">GAME</a>
+		<a href="Game-start.html">GAME</a>
 	</div>
 
 	<div class="video">
-		<img src="web-pic/10.1.png" alt="Big Boat" width="100%" height="100%">
+	
+
 		<!--
+				<button id="startButton">START</button>
+	<script>
+    document.getElementById('startButton').addEventListener('click', function() {
+      window.location.href = 'GAME.html';
+    });
+  	</script>
+
 			border: palevioletred 3px solid;
 		<a href="marker_5.html">LINK--文字扫描
 		<a href="Game.html">LINK--女书拼图
@@ -70,7 +89,7 @@
 		<iframe width="640" height="360" src="video/interview.mp4" frameborder="0" allowfullscreen></iframe>
 		-->
 	</div>
-
+			<iframe src="Game.html" width="320" height="180"></iframe>
 
 
 </body>
