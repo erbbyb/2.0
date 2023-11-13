@@ -49,7 +49,7 @@ function setup(){
 		x: -0.3,
 		y: 0.5,
 		z: 0,
-		scaleX: 0.1,
+		scaleX: 1,
 		scaleY: 1,
 		scaleZ: 1,
 
