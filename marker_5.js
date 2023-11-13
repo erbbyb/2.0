@@ -94,7 +94,7 @@ function setup(){
 		z: 0,
 		opacity:0.5,
 	});
-	marker05.add(box);
+	//marker05.add(box);
 }
 
 function draw(){
